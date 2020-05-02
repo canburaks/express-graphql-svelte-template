@@ -1,0 +1,37 @@
+{
+  "name": "swoke-svelte",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./server/www",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "graphql-request": "^1.8.2",
+    "morgan": "~1.9.1",
+    "node-sass": "^4.14.0",
+    "studiowoke-atomic-css": "^0.1.0",
+    "svelte-preprocess": "^3.7.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "11.0.2",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^13.13.2",
+    "rollup": "^1.20.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-css-only": "^2.0.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-postcss": "^3.1.1",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0"
+  }
+}
